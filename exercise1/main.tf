@@ -1,8 +1,8 @@
 # TODO: Designate a cloud provider, region, and credentials
 
 provider "aws" {
-  access_key = "AKIAV53EEKPB3MM7FJ6H"
-  secret_key = "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"
+  access_key = "XXXXXXXXXX"
+  secret_key = "XXXXXXXXXX"
   region = "us-east-1"
 }
 
