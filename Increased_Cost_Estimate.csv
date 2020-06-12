@@ -1,0 +1,19 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,5628.15,67537.8,USD,Number of NAT Gateways (3)
+My Estimate,US East (N. Virginia),S3 Standard,0,776.34,9316.08,USD,S3 Standard storage (20 TB per month)
+My Estimate,US East (N. Virginia),Data Transfer,0,0,0,USD,Data Transfer
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1791.91,21502.92,USD,"Data Transfer, Data transfer cost (1791.91)"
+My Estimate,US East (N. Virginia),Amazon RDS for PostgreSQL,0,8859.52,106314.24,USD,"Quantity (3), Storage volume (Provisioned IOPS SSD (io1)), Provisioning IOPS (1000), Storage amount (2 TB per month), Instance type (db.m5.4xlarge), Additional backup storage (5 TB)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,1050.6,12607.2,USD,"Operating system (Linux), Quantity (24), Storage for each EC2 instance (Throughput Optimized HDD (st1)), Storage amount (40 GB), Instance type (t2.large)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,79.57,954.84,USD,Number of Application Load Balancers (2)
+My Estimate,US East (Ohio),S3 Standard,0,776.34,9316.08,USD,S3 Standard storage (20 TB per month)
+My Estimate,US East (Ohio),Data Transfer,0,0,0,USD,Data Transfer
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
+,,,,,,,
+My Notes,,,,,,,
+"I modified the EC2 Instance type and the RDS Instance type, and chose instance types with more compute/memory resources.",,,,,,,
+I increased the number of EC2 instances for scalability from 16 to 24 instances,,,,,,,
+I added a third Availability Zone for enhance the redundancy/availability of compute & DB resources,,,,,,,
